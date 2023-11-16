@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CyprtoTableViewCell" rowHeight="97" id="KGk-i7-Jjw" customClass="CyprtoTableViewCell" customModule="task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="🦆 icon _Binance Coin Cryptocurrency_" translatesAutoresizingMaskIntoConstraints="NO" id="Jpc-Qv-RyB">
+                        <rect key="frame" x="12" y="16" width="69" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="CQi-fK-5p3"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="JO2-Kc-ScN">
+                        <rect key="frame" x="97" y="27" width="106" height="43"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jsh-TF-mvg">
+                                <rect key="frame" x="0.0" y="0.0" width="106" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbt-BF-Lbs">
+                                        <rect key="frame" x="0.0" y="0.0" width="33" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" translatesAutoresizingMaskIntoConstraints="NO" id="gh7-b4-vmO">
+                                        <rect key="frame" x="43" y="0.0" width="63" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="PuC-o4-pVo"/>
+                                            <constraint firstAttribute="width" constant="63" id="SyZ-nH-xLl"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethereum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSB-2E-5Mk">
+                                <rect key="frame" x="0.0" y="28" width="106" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="DRG-rI-3y3">
+                        <rect key="frame" x="282.33333333333331" y="28" width="92.666666666666686" height="41"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3,800 USD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oW7-yj-sYZ">
+                                <rect key="frame" x="0.0" y="0.0" width="92.666666666666671" height="19.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-3.2%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbS-Kb-X8Y">
+                                <rect key="frame" x="55.666666666666686" y="25.333333333333339" width="37" height="15.666666666666668"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="0.23921568627450979" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Jpc-Qv-RyB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="5VY-H8-waL"/>
+                    <constraint firstItem="JO2-Kc-ScN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="YAp-eR-NOB"/>
+                    <constraint firstItem="Jpc-Qv-RyB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bxk-wb-WoI"/>
+                    <constraint firstItem="DRG-rI-3y3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cdU-1a-QNt"/>
+                    <constraint firstItem="JO2-Kc-ScN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="16" id="dlU-st-OJy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="JO2-Kc-ScN" secondAttribute="bottom" constant="16" id="dt9-3T-O1V"/>
+                    <constraint firstItem="JO2-Kc-ScN" firstAttribute="leading" secondItem="Jpc-Qv-RyB" secondAttribute="trailing" constant="16" id="o26-tj-n3H"/>
+                    <constraint firstAttribute="trailing" secondItem="DRG-rI-3y3" secondAttribute="trailing" constant="20" id="ri4-rN-Fpb"/>
+                    <constraint firstItem="Jpc-Qv-RyB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="tgb-g5-PQe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="logoImg" destination="Jpc-Qv-RyB" id="J4T-es-afq"/>
+                <outlet property="logosubTitleLbl" destination="uSB-2E-5Mk" id="TiP-gN-GRR"/>
+                <outlet property="logotitle" destination="kbt-BF-Lbs" id="cxY-Rg-BBN"/>
+                <outlet property="pointerPercentageLbl" destination="hbS-Kb-X8Y" id="1Rw-ed-7kX"/>
+                <outlet property="pointerValue" destination="oW7-yj-sYZ" id="Ee5-uc-RfC"/>
+                <outlet property="progressGraph" destination="gh7-b4-vmO" id="7fe-Ub-O1c"/>
+            </connections>
+            <point key="canvasLocation" x="187.02290076335876" y="7.394366197183099"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="green" width="65" height="18"/>
+        <image name="🦆 icon _Binance Coin Cryptocurrency_" width="47" height="47"/>
+    </resources>
+</document>

@@ -10,10 +10,27 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if (window?.rootViewController as? UITabBarController) != nil {
+
+              //Change unselected TintColor
+              (window?.rootViewController as! UITabBarController).tabBar.tintColor = UIColor(red: 255/255, green: 102/255, blue: 0, alpha: 1.0)
+
+              //If system has IOS 10 or newer
+              if #available(iOS 10.0, *) {
+                  //Change Unselected Tint Color
+                  (window?.rootViewController as! UITabBarController).tabBar.unselectedItemTintColor = UIColor.black
+              } else {
+                  // Fallback on earlier versions
+              }
+
+          }
+
+
+       
         return true
     }
 
